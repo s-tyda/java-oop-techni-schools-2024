@@ -1,7 +1,7 @@
 package org.example.oop.humans;
 
 public class Human {
-    private String name;
+    String name;
     private String surname;
     private int height;
 
@@ -33,5 +33,13 @@ public class Human {
         else {
             this.name = name;
         }
+    }
+
+    public void print(){
+        System.out.println("Jestem człowiekiem o imieniu " + name);
+    }
+
+    public static void staticMethod(){
+        System.out.println("Jestem metodą statyczną");
     }
 }
