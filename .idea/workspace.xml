@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="86a5d428-2b88-4a96-b9f1-3b270b55673c" name="Changes" comment="feat: add code from classes">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/oop/products/Toilet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/oop/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/oop/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/oop/humans/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/oop/humans/Human.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/oop/products/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/oop/products/Product.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +17,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="OpenAPI" />
         <option value="Class" />
       </list>
     </option>
@@ -50,6 +51,7 @@
     &quot;Application.Zad19.executor&quot;: &quot;Run&quot;,
     &quot;Application.ZadXX.executor&quot;: &quot;Run&quot;,
     &quot;Application.org.example.oop.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.org.example.oop.products.Main.executor&quot;: &quot;Run&quot;,
     &quot;Application.org.example.syntax.christmas.Zad02.executor&quot;: &quot;Run&quot;,
     &quot;Application.org.example.syntax.christmas.Zad03.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
@@ -66,26 +68,13 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.org.example.oop.products.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.oop.Main" />
       <module name="java-oop-techni-schools-2024" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.oop.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Zad02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.syntax.kartkowka.Zad02" />
-      <module name="java-oop-techni-schools-2024" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.syntax.kartkowka.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,13 +121,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="org.example.oop.products.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.oop.products.Main" />
+      <module name="java-oop-techni-schools-2024" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.oop.products.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.example.oop.products.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Zad04" />
         <item itemvalue="Application.ZadXX" />
         <item itemvalue="Application.Zad03" />
-        <item itemvalue="Application.Zad02" />
       </list>
     </recent_temporary>
   </component>
@@ -187,7 +189,8 @@
       <workItem from="1736776647943" duration="603000" />
       <workItem from="1737369339238" duration="3858000" />
       <workItem from="1737975557637" duration="2777000" />
-      <workItem from="1739187284917" duration="674000" />
+      <workItem from="1739187284917" duration="2862000" />
+      <workItem from="1739191823002" duration="607000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <option name="closed" value="true" />
@@ -221,7 +224,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736765876484</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="feat: add code from classes">
+      <option name="closed" value="true" />
+      <created>1739188175665</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1739188175665</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

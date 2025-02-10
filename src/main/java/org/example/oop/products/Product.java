@@ -4,13 +4,13 @@ package org.example.oop.products;
 
 abstract class Product {
     protected String nazwa;
-    protected int netto;
+    protected double netto;
     protected double brutto;
     protected double podatek;
     protected double marza;
     protected int ilosc;
 
-    public Product (String nazwa, int netto, int ilosc) {
+    public Product (String nazwa, double netto, int ilosc) {
         this.nazwa = nazwa;
         this.netto = netto;
         this.ilosc = ilosc;
@@ -29,9 +29,11 @@ abstract class Product {
         return false;
     }
 
-    //    public boolean sell(int i) {
-//        int res = Math.min(0, this.ilosc - i);
-//        this.ilosc -= res;
-//        return res != 0;
-//    }
+    public static double wartoscProduktow(Product[] products) {
+        double suma = 0;
+        for (Product p:products) {
+            suma += p.total();
+        }
+        return suma;
+    }
 }
