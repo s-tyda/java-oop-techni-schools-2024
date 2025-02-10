@@ -7,7 +7,7 @@
     <list default="true" id="86a5d428-2b88-4a96-b9f1-3b270b55673c" name="Changes" comment="feat: add code from classes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/oop/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/oop/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/oop/humans/Human.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/oop/humans/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/oop/humans/Human.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,7 +183,11 @@
       <workItem from="1734345498203" duration="5334000" />
       <workItem from="1734352779670" duration="1402000" />
       <workItem from="1734356949579" duration="250000" />
-      <workItem from="1736764734119" duration="917000" />
+      <workItem from="1736764734119" duration="4619000" />
+      <workItem from="1736776647943" duration="603000" />
+      <workItem from="1737369339238" duration="3858000" />
+      <workItem from="1737975557637" duration="2777000" />
+      <workItem from="1739187284917" duration="674000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <option name="closed" value="true" />
@@ -209,7 +213,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733142115912</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat: add code from classes">
+      <option name="closed" value="true" />
+      <created>1736765876484</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1736765876484</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
